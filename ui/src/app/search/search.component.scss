@@ -5,3 +5,13 @@
   padding-top: $spacing-reg;
   padding-bottom: $spacing-reg;
 }
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.header img {
+  width: 100%;
+}

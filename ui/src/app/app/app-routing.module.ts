@@ -8,7 +8,7 @@ import { ProfileComponent } from '../profile/profile-view/profile.component';
 import { PageNotFoundComponent } from './not-found.component';
 
 const appRoutes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', redirectTo: '/search', pathMatch: 'full' },
   { path: 'add', component: ProfileAddComponent },
   { path: 'search', component: SearchComponent },
   { path: 'profile/:id' , component: ProfileComponent },
